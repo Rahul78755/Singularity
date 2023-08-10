@@ -1,0 +1,12 @@
+how to ssh config file edit and short cut your 
+
+
+first got the server then type command : # nano .ssh/config#
+
+Host <short cut ssh server name>
+     HostName <ip address>
+     User <user name>
+     Port 22
+     ForwardX11 yes
+     IdentityFile <pem file path plus/.pem>
+
